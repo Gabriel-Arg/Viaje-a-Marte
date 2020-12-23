@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 150px;
     border-radius: 0% 0% 50% 50%;
-    background-color: rgba(213, 132, 70, 0.631);
+    background-color: rgba(199, 109, 40, 0.631);
     transition: all;
     transition-duration: 1s;
     transition-delay: 0.2s;
@@ -19,8 +19,7 @@ body {
 
 .marte:hover {
     height: 300px;
-    border-radius: 0% 0% 50% 50%;
-    background-color: rgba(254, 146, 64, 0.748);
+    background-color: rgba(255, 131, 36, 0.748);
     cursor: pointer;
 }
 
@@ -38,8 +37,9 @@ body {
     border-radius: 50%;
 }
 
+/*------------MAIN CON TODAS LAS RUTAS -------------*/
 .cielo {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-flow: nowrap row;
     justify-content: center;
@@ -48,8 +48,7 @@ body {
 }
 
 .ruta {
-    border: 1px solid blue;
-    background-color: rgba(255, 255, 255, 0.2);
+    /* border: 1px solid blue; */
     margin: 0px 1px 2px;
     width: 50px;
     height: 3230px;
@@ -59,13 +58,35 @@ body {
 }
 
 .escalon {
-    border: 1px solid red;
-    background-color: rgba(255, 255, 255, 0.2);
+    /* border: 1px solid red; */
+    background-color: rgba(186, 186, 186, 0.125);
+    color: rgba(0, 0, 0, 0.433);
+    font-family: monospace;
     margin: 1px 0px;
     width: 49.5px;
-    height: 50px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/*----------NAVE CON SU ANIMACIÓN----------------*/
 .nave {
     width: 47px;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    cursor: pointer;
+}
+
+.nave:hover {
+    width: 200px;
+}
+
+/*-------------FOOTER------------------------------*/
+footer {
+    background-color: #225621;
+    display: flex;
+    height: 300px;
+
 }
