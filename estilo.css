@@ -36,6 +36,22 @@ body {
     background-color: rgba(208, 118, 50, 0.631);
     border-radius: 50%;
 }
+/*--------ENCABEZADO-------------------*/
+h1 {
+    position: absolute;
+    font-family: 'Bangers', cursive;
+    font-size: 100px;
+    color: rgb(9, 46, 9);
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+h1:hover {
+    cursor: pointer;
+    font-size: 200px;
+    color: rgb(4, 51, 4);
+}
 
 /*------------MAIN CON TODAS LAS RUTAS -------------*/
 .cielo {
@@ -50,7 +66,7 @@ body {
 .ruta {
     /* border: 1px solid blue; */
     margin: 0px 1px 2px;
-    width: 50px;
+    width: 53px;
     height: 3230px;
     display: flex;
     flex-direction: column;
@@ -87,6 +103,5 @@ body {
 footer {
     background-color: #225621;
     display: flex;
-    height: 300px;
-
+    height: 100px;
 }
