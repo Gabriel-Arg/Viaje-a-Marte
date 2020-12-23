@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/Fondo.png);
+}
+
+.marte {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 0% 0% 50% 50%;
+    background-color: rgba(213, 132, 70, 0.631);
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+.marte:hover {
+    height: 300px;
+    border-radius: 0% 0% 50% 50%;
+    background-color: rgba(254, 146, 64, 0.748);
+    cursor: pointer;
+}
+
+.crater {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(208, 118, 50, 0.631);
+    border-radius: 50%;
+}
+
+.crater2 {
+    width: 150px;
+    height: 90px;
+    background-color: rgba(208, 118, 50, 0.631);
+    border-radius: 50%;
+}
+
+.cielo {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 3235px;
+}
+
+.ruta {
+    border: 1px solid blue;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0px 1px 2px;
+    width: 50px;
+    height: 3230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.escalon {
+    border: 1px solid red;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 1px 0px;
+    width: 49.5px;
+    height: 50px;
+}
+
+.nave {
+    width: 47px;
+}
