@@ -150,9 +150,64 @@ h1:hover {
     width: 200px;
 }
 
-/*-------------FOOTER------------------------------*/
-footer {
-    background-color: #225621;
+/*-------------BANNER ANIMADO------------------------------*/
+.banner {
     display: flex;
-    height: 100px;
+    height: 350px;
+    width: 100%;
+}
+
+.banner-item {
+    background-color: green;
+    flex: 1;
+    color: rgba(255, 255, 255, 0);
+    font-size: 0.5px;
+    font-family: 'Bangers';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.banner-item:hover {
+    flex-grow: 8;
+    cursor: pointer;
+    color: rgb(255, 217, 0);
+    font-size: 40px;
+}
+
+.banner-item:hover .banner-txt {
+    transform: rotate(0);
+}
+
+.banner-item:nth-child(1) {
+    background-color: rgb(1, 114, 1);
+}
+
+.banner-item:nth-child(2) {
+    background-color: rgb(1, 133, 1);
+}
+
+.banner-item:nth-child(3) {
+    background-color: rgb(0, 145, 0);
+}
+
+.banner-item:nth-child(4) {
+    background-color: rgb(1, 150, 1);
+}
+
+.banner-item:nth-child(5) {
+    background-color: rgb(0, 158, 0);
+}
+
+.banner-txt {
+    margin: 0;
+    transform: rotate(-90deg);
+    transition: transform 0.4s 0.5s;
+}
+
+/*---------------FOOTER----------------------------------*/
+footer {
+    
 }
