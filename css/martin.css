@@ -1,9 +1,11 @@
 
 .ruta .martin {
     opacity: 75%;
-    background-image: url(/img/martin.gif);
+    background-image: url(/img/fondomartin.jpg);
     color: rgba(55, 4, 61, 0.8);
     margin: 0px;
     padding: 1px 0px;
+
 }
+
 
