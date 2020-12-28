@@ -211,10 +211,11 @@ h1:hover {
 footer {
     
 }
+
 .ruta .lina{
     background-color: rgb(253, 93, 0);
     color:  rgba(253, 93, 0);
-    opacity: 70%;
+    opacity: 80%;
     margin: 0px;
     padding: 1px 0px;
 }
