@@ -86,6 +86,11 @@ h1:hover {
     align-items: center;
 }
 
+#escalon-gaby {
+    background-color: rgba(43, 0, 0, 0.419);
+    margin: 0px;
+}
+
 /*-------------RUTA DE INFORMACION GENERAL----------------*/
 .ruta-central {
     margin: 0px 1px 2px;
