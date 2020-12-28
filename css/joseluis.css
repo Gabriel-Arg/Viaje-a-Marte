@@ -1,0 +1,13 @@
+.navejose {
+    width: 60px;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    cursor: pointer;
+    transform:scale(1);
+    -webkit-transition: all 500ms;
+}
+.navejose:hover {
+    width: 800px;       
+}
+
