@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(img/Fondo.png);
+    background-image: url(/img/Fondo.png);
 }
 
 .marte {
@@ -210,4 +210,16 @@ h1:hover {
 /*---------------FOOTER----------------------------------*/
 footer {
     
+}
+
+
+
+
+.ruta .franco{
+    color: rgba(51, 3, 61, 0.76);
+    background-image: url(/img/6632453.gif);
+    font-size: 4px;
+    text-align: center;
+    margin: 0px;
+    padding: 1px 0px;
 }

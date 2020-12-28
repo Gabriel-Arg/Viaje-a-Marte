@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(img/Fondo.png);
+    background-image: url(/img/Fondo.png);
 }
 
 .marte {
@@ -210,4 +210,12 @@ h1:hover {
 /*---------------FOOTER----------------------------------*/
 footer {
     
+}
+
+.ruta .lina{
+    background-color: rgb(253, 93, 0);
+    color:  rgba(253, 93, 0);
+    opacity: 80%;
+    margin: 0px;
+    padding: 1px 0px;
 }
