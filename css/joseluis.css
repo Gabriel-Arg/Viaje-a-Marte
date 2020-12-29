@@ -13,7 +13,8 @@
 
 .ruta .jose{
     background: linear-gradient(to right, yellow, blue, red); 
-    padding: 0px 1px;
-    opacity: 70%;
+    padding: 1px 0px;
+    opacity: 60%;
     margin: 0px;
+    text-align: center;
 }
