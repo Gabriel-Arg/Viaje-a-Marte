@@ -1,13 +1,19 @@
 .navejose {
-    width: 60px;
+    width: 80px;
     transition: all;
     transition-duration: 0.5s;
     transition-delay: 0.2s;
     cursor: pointer;
-    transform:scale(1);
-    -webkit-transition: all 500ms;
+    z-index: 50;
 }
+
 .navejose:hover {
     width: 800px;       
 }
 
+.ruta .jose{
+    background: linear-gradient(to right, yellow, blue, red); 
+    padding: 0px 1px;
+    opacity: 70%;
+    margin: 0px;
+}

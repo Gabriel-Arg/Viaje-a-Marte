@@ -93,6 +93,10 @@ h1:hover {
     color: transparent;
     opacity: 0.7;
 }
+#escalon-gaby {
+    background-color: rgba(43, 0, 0, 0.419);
+    margin: 0px;
+}
 
 /*-------------RUTA DE INFORMACION GENERAL----------------*/
 .ruta-central {
