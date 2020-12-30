@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(img/Fondo.png);
+    background-image: url(../img/Fondo.png);
 }
 
 .marte {
@@ -86,10 +86,15 @@ h1:hover {
     align-items: center;
 }
 
-#escalon-gaby {
-    background-color: rgba(43, 0, 0, 0.419);
-    margin: 0px;
+.ruta .clau {
+    background-image: url(../img/shine.gif);
+    color: transparent;
+    opacity: 0.7;
+    margin: 0;
+    padding: 1px 0;
+    
 }
+
 
 /*-------------RUTA DE INFORMACION GENERAL----------------*/
 .ruta-central {
