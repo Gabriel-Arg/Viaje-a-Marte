@@ -1,0 +1,9 @@
+/* Juan Carlos */
+
+.ruta .jc {
+    opacity: 45%;
+    background-image: url(/img/jc-fondo.gif);
+    color: rgba(55, 4, 61, 0.8);
+    margin: 0px;
+    padding: 1px 0px;
+}

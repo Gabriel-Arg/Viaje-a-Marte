@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/Fondo.png);
+}
+
+.marte {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 0% 0% 50% 50%;
+    background-color: rgba(199, 109, 40, 0.631);
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+.marte:hover {
+    height: 300px;
+    background-color: rgba(255, 131, 36, 0.748);
+    cursor: pointer;
+}
+
+.crater {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(208, 118, 50, 0.631);
+    border-radius: 50%;
+}
+
+.crater2 {
+    width: 150px;
+    height: 90px;
+    background-color: rgba(208, 118, 50, 0.631);
+    border-radius: 50%;
+}
+/*--------ENCABEZADO-------------------*/
+h1 {
+    position: absolute;
+    font-family: 'Bangers', cursive;
+    font-size: 100px;
+    color: rgb(9, 46, 9);
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+h1:hover {
+    cursor: pointer;
+    font-size: 200px;
+    color: rgb(4, 51, 4);
+}
+
+/*------------MAIN CON TODAS LAS RUTAS -------------*/
+.cielo {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 3235px;
+}
+
+.ruta {
+    /* border: 1px solid blue; */
+    margin: 0px 1px 2px;
+    width: 45px;
+    height: 3230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.escalon {
+    /* border: 1px solid red; */
+    background-color: rgba(186, 186, 186, 0.125);
+    color: rgba(0, 0, 0, 0.433);
+    font-family: monospace;
+    margin: 1px 0px;
+    width: 44.5px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ruta .clau {
+    background-image: url(../img/shine.gif);
+    color: transparent;
+    opacity: 0.7;
+    margin: 0;
+    padding: 1px 0;
+    
+}
+
+
+/*-------------RUTA DE INFORMACION GENERAL----------------*/
+.ruta-central {
+    margin: 0px 1px 2px;
+    width: 45px;
+    height: 3230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ruta-central .escalon {
+    color: rgba(0, 0, 255, 0);
+    background-color: rgba(186, 186, 186, 0.049);
+    font-size: 4px;
+    text-align: center;
+}
+
+#cartel {
+    background-color: rgba(255, 255, 255, 0.631);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+#cartel:hover {
+    cursor: pointer;
+    width: 300px;
+    height: 400px;
+    padding-top: 40px;
+    border-radius: 5%;
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    box-shadow: 10px 10px 1px rgb(172, 0, 0);
+}
+
+#cartel img {
+    width: 0.1px;
+    transition: all;
+    transition-duration: 1.5s;
+    transition-delay: 0.4s;
+}
+
+#cartel:hover img {
+    width: 250px;
+}
+
+
+/*----------NAVE CON SU ANIMACIÓN----------------*/
+.navefran {
+    width: 47px;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    cursor: pointer;
+    z-index: 50;
+    position: ;
+
+}
+
+.navefran:hover {
+    width: 200px;
+}
+
+
+/*-------------BANNER ANIMADO------------------------------*/
+.banner {
+    display: flex;
+    height: 350px;
+    width: 100%;
+}
+
+.banner-item {
+    background-color: green;
+    flex: 1;
+    color: rgba(255, 255, 255, 0);
+    font-size: 0.5px;
+    font-family: 'Bangers';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.banner-item:hover {
+    flex-grow: 8;
+    cursor: pointer;
+    color: rgb(255, 217, 0);
+    font-size: 40px;
+}
+
+.banner-item:hover .banner-txt {
+    transform: rotate(0);
+}
+
+.banner-item:nth-child(1) {
+    background-color: rgb(1, 114, 1);
+}
+
+.banner-item:nth-child(2) {
+    background-color: rgb(1, 133, 1);
+}
+
+.banner-item:nth-child(3) {
+    background-color: rgb(0, 145, 0);
+}
+
+.banner-item:nth-child(4) {
+    background-color: rgb(1, 150, 1);
+}
+
+.banner-item:nth-child(5) {
+    background-color: rgb(0, 158, 0);
+}
+
+.banner-txt {
+    margin: 0;
+    transform: rotate(-90deg);
+    transition: transform 0.4s 0.5s;
+}
+
+/*---------------FOOTER----------------------------------*/
+footer {
+    
+}
