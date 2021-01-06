@@ -1,0 +1,8 @@
+.arthur .nave {
+    z-index: 10;
+}
+.arthur .escalon.active {
+    background-image: url("/img/murcielago.png");
+    background-size: contain;
+    margin: 0;
+}
