@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Fondo.png);
+
+}.escalon {
+    /* border: 1px solid red; */
+    background-color: rgba(186, 186, 186, 0.125);
+    color: rgba(0, 0, 0, 0.433);
+    font-family: monospace;
+    margin: 1px 0px;
+    width: 44.5px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#escalon-jorge {
+    background-color: rgba(43, 0, 0, 0.419);
+    margin: 0px;
+}
