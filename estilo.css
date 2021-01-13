@@ -109,6 +109,7 @@ h1:hover {
 }
 
 #cartel {
+    z-index: 100;
     background-color: rgba(255, 255, 255, 0.631);
     border-radius: 50%;
     display: flex;
